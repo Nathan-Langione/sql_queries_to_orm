@@ -1,0 +1,11 @@
+1.
+INSERT INTO hogwarts.wizard (name, house, pet, year) VALUES ('Luna Lovegood', 'Ravenclaw', 'None', '4');
+
+2.
+INSERT INTO hogwarts.wizard (name, house, pet, year) VALUES ('Parma Patil', 'Ravenclaw', 'None', '5');
+
+3. 
+SELECT * FROM hogwarts.wizard WHERE house = 'Ravenclaw';
+
+4.
+UPDATE hogwarts.wizard SET year = '5' WHERE name = 'Luna Lovegood';

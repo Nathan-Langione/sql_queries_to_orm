@@ -1,0 +1,17 @@
+1.
+Wizard.objects.create(name='Harry Potter', house='Gryffindor', pet='hedwig', year = '5')
+
+2.
+hg = Wizard(name='hermione granger', house='Gryffindor', pet='crookshanks', year = '5')
+hg.save()
+
+3.
+Wizard.objects.get(id=1)
+
+4.
+gryff = Wizard.objects.filters(house='Gryffindor')
+
+5.
+hp_update = Wizard.objects.get(id=1)
+hp_update.year = "6"
+hp_update.save()
